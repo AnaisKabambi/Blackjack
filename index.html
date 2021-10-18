@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Blackjack</h1>
+    <p> click 'new game' to start</p>
+    <div class="container">
+        <div class="item-1">
+            <p id="player-score"></p>
+            <p id="player-card1" ></p>
+            <p id="player-card2"></p>
+        </div>
+
+        <div class="item-2">
+            <p id="computer-score"></p>
+            <p id="computer-card1"></p>
+            <p id="computer-card2"></p>
+        </div>
+
+        <div class="item-3">
+            <p id="results"></p>
+            <p id="updates"></p>
+        </div>
+
+    </div>
+    <button id="hit" onclick="showHit()">hit</button>
+    <button id="stand">stand</button><br>
+    <button id="run" onclick="showRun()">new game</button>
+</body>
+<script src="script.js"></script>
+</html>
